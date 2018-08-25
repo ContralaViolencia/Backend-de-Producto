@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo: MyString
+  nombre: MyString
+  pertenece: MyString
+  activo: false
+
+two:
+  tipo: MyString
+  nombre: MyString
+  pertenece: MyString
+  activo: false
