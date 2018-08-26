@@ -10,19 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_26_213844) do
+ActiveRecord::Schema.define(version: 2018_08_26_222905) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "paginas", force: :cascade do |t|
-    t.string "titulo"
-    t.string "ruta"
-    t.string "subTitulo"
-    t.string "enunciado", null: false
-    t.string "contenido", null: false
-    t.string "icono", null: false
-    t.string "color", null: false
+    t.string "titulo", null: false
+    t.string "ruta", null: false
+    t.string "subTitulo", null: false
+    t.string "enunciado"
+    t.string "contenido"
+    t.string "icono"
+    t.string "color"
     t.bigint "parametros_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -30,9 +30,9 @@ ActiveRecord::Schema.define(version: 2018_08_26_213844) do
   end
 
   create_table "parametros", force: :cascade do |t|
-    t.string "tipo", null: false
-    t.string "nombre", null: false
-    t.string "pertenece", null: false
+    t.string "tipo"
+    t.string "nombre"
+    t.string "pertenece"
     t.boolean "activo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
