@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titulo: MyString
+  ruta: MyString
+  subTitulo: MyString
+  enunciado: MyString
+  contenido: MyString
+  icono: MyString
+  color: MyString
+  parametro: one
+
+two:
+  titulo: MyString
+  ruta: MyString
+  subTitulo: MyString
+  enunciado: MyString
+  contenido: MyString
+  icono: MyString
+  color: MyString
+  parametro: two
