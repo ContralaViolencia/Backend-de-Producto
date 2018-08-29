@@ -1,3 +1,3 @@
 class Pagina < ApplicationRecord
-  belongs_to :parametro
+  belongs_to :parametro, optional: true
 end
